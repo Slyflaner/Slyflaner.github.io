@@ -1,0 +1,60 @@
+html {
+	font: 12pt vernada; /* задает шрифт */
+	   	}
+
+body {
+background-color: #fc0;
+background-image: url(../images/image5.png);
+background-repeat: no-repeat;
+background-position: right top;
+background-size: 75px;
+background-attachment: fixed;  
+}
+
+.scale{
+	width: 200px;
+    transition: 1s; /* Время эффекта */
+}
+   
+.scale:hover {
+transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+ 
+a {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+   }
+   
+   h1 {
+color: #0033cc; /* Цвет h1*/
+margin-top: 0px; /* отступы 0 т.к. задание 10px*/
+margin-bottom: 0px;	
+}
+
+h2 {
+	color: #3366ff;  /* Цвет h2*/	
+	margin-top: 0px; /* отступы 0 т.к. задание 10px*/
+margin-bottom: 0px;
+}
+
+p {
+    text-align: justify; /* Выравнивание текста по ширине */
+	text-indent: 20px;
+	margin-top: 10px;
+    margin-left: 20px;
+   }
+   
+   hr {
+    margin: 20px 0;
+    padding: 0;
+    height: 10px;
+    border: none;
+    box-sizing: border-box;
+    background-position: 50%;
+    color: orange;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="3px" height="3px" viewBox="0 0 3 3" fill="orange"><polygon points="0,0.5 0,1.5 1.5,3 2.5,3"></polygon><polygon points="2.5,0 1.5,0 3,1.5 3,0.5"></polygon></svg>');
+    background-size: 6px 6px;
+}
+.it {
+	font-style: italic;
+}
